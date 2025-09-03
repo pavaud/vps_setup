@@ -6,3 +6,6 @@ down:
 
 restart:
 	docker compose restart
+
+logs:
+	docker compose logs -f api
